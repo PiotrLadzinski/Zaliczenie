@@ -1,0 +1,110 @@
+ID: Test1
+Tytul: Otworz pierwszy artykul a nastepnie otworz profil autora
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.smashingmagazine.com / Strona laduje sie prawidlowo
+2. Wybierz i kliknij w pierwszy artykul / Artykul otwiera sie prawidlowo
+3. Wybierz autora i wyswietl jego profil / Profil autora otworzyl sie
+
+ID: Test2
+Tytul: Znalezienie frazy Jagiellonia Białystok
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.wikipedia.org / Strona laduje sie prawidlowo
+2. W polu wyszukiwania wpisza fraze "Jagiellonia" / Dane zostały wpisane poprawnie
+3. W wynikach wyszukiwania wyszukaj fraze "Jagiellonia Bialystok" / Fraza zostala odszukana
+
+ID: Test3
+Tytul: Darowizna dla Zuzi
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.siepomaga.pl/zuzia / Strona laduje sie prawidlowo
+2. Wybierz i kliknij przycisk "wesprzyj" / Przycisk zostal nacisniety i przeniosl na koleja podstrone
+3. Zweryfikuj obecnosc przycisku "rejestracja-potrzebujacego/nowy"  / Przycisk zweryfikowany
+
+ID: Test4
+Tytul: Zamknięcie ciasteczek WP
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.wp.pl / Strona laduje sie prawidlowo
+2. Nacisnij przycisk akceptujący ciasteczka / Przycisk zostal nacisniety
+3. Okno informujace o ciasteczkach zostalo zamkniete / Wyswietlana jest strona glowna
+
+ID: Test5
+Tytul: Uruchomienie przeglądarki Google
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.google.com / Strona laduje sie prawidlowo
+2. Zweryfikuj obecność div.gd_mb / Brak obecności potwierdzony
+
+ID: Test6
+Tytul: Zamknięcie ciasteczek onet
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.onet.pl / Strona laduje sie prawidlowo
+2. Nacisnij przycisk akceptujący ciasteczka / Przycisk zostal nacisniety
+3. Okno informujace o ciasteczkach zostalo zamkniete / Wyswietlana jest strona glowna
+
+ID: Test7
+Tytul: Wlaczenie pierwszego artykulu z listy
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.dlatesterow.pl / Strona laduje sie prawidlowo
+2. Sprawdz obecnosc logo / Obecnosc loga zostala zweryfikowana poprawnie
+3. Wybierz pierwszy artykul ktory pojawi sie na stronie glownej / Wyswietlony zostal pietwszy artykul ze strony glownej
+
+ID: Test8
+Tytul: Widocznosc klasy css
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.youtube.com / Strona laduje sie prawidlowo
+2. Zweryfikuj "widocznosc" endpoint / Brak widocznosci potwierdzony
+
+ID: Test9
+Tytul: Otwieranie artykulu z konkretnej frazy
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - www.dlatesterow.pl / Strona laduje sie prawidlowo
+2. Zweryfikuj widocznosc logo / Logo jest widoczne
+3. Wybierz pierwszy artykul z listy / Artykul zostal wybrany i klikniety
+4. W oknie wyszukiwnia wpisz "JMeter" / Fraza zostala wpisana i zatwierdzona poprzez klikniecie
+5. Wyswierl artykul "JMeter nagrywanie ruchu w przeglądarce" / Artykul wyswietla sie poprawnie
+
+ID: Test10
+Tytul: Otwarcie strony internetowej by potwierdzić url i tytuł strony
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - kanonierzy.com / Strona laduje sie prawidlowo
+2. Zweryfikuj widocznosc url "kanonierzy" / Url potwierdzony
+3. Zweryfikuj widoczność "Aktualnosci" / Aktualnosci zostaly potwierdzone i wyswietlaja sie poprawnie
+4. Zweryfikuj obecnosc przycisku "votes" / Obecnosc przycisku zostala zweryfikowana poprawnie
+
+ID: Test11
+Tytul: Wpisanie emaila
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - https://example.cypress.io / Strona laduje sie prawidlowo
+2. Znajdz przycisk "type" i kliknij / PRzycisk zostal znaleziony i klikniety
+3. W polu emali wpisz "fake@email.com" / Fraza zostala wpisana
+4. Zweryfikuj poprawnosc wpisania frazy "fake@email.com" / Poprawnosc frazy zostala zweryfikowana pozytywnie
+
+ID: Test12
+Tytul: Wyszukiwanie "Piotr Ladzinski" z niepowodzeniem
+Status: Do wykonania
+Warunki poczatkowe: Dostep do internetu
+Krok/Rezultat:
+1. Otworz strone - https://www.smashingmagazine.com / Strona laduje sie prawidlowo
+2. W polu wyszukiwania wpisz "Piotr Ladzinski" / Pole zostalo uzupelnione poprawnie
+3. Wyszukaj frazę "Piotr Ladzinski" / Fraza zostala wyszukana ale nie zostala odnaleziona poniewaz nie istnieje w bazie
+
